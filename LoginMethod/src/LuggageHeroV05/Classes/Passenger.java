@@ -10,18 +10,6 @@ package LuggageHeroV05.Classes;
  * @author moren
  */
 public class Passenger {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    
-   
-    }
-    
-    
-    class PassengerCharacteristics {
         
         public String firstname;
         public String lastname;
@@ -37,6 +25,6 @@ public class Passenger {
         
         
         
-    }
-    
-}
+        
+        
+    } 

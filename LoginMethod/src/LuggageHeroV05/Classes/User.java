@@ -24,4 +24,9 @@ public class User {
     public Date birthdate;
     public int aid;
 
+    public String fullname(){
+        String fullname = this.firstName + " " + this.lastName;
+        
+        return fullname;
+    }
 }

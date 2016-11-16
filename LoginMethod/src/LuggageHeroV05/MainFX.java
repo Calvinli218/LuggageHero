@@ -38,8 +38,8 @@ public class MainFX extends Application {
                 String wachtwoord = "wachtwoord";
                 User user = new User();
                 Login.Login(user, email, wachtwoord);
-                System.out.println(user.firstName);
-                System.out.println(user.lastName);
+                
+                System.out.println(user.fullname());
                 System.out.println(user.function);
                 System.out.println(user.email);
                 System.out.println(user.telephone);
